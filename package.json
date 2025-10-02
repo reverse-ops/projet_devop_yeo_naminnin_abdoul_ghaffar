@@ -1,10 +1,27 @@
 {
   "name": "projet_devop_yeo_naminnin_abdoul_ghaffar",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000p\u0000r\u0000o\u0000j\u0000e\u0000t\u0000_\u0000d\u0000e\u0000v\u0000o\u0000p\u0000_\u0000y\u0000e\u0000o\u0000_\u0000n\u0000a\u0000m\u0000i\u0000n\u0000n\u0000i\u0000n\u0000_\u0000a\u0000b\u0000d\u0000o\u0000u\u0000l\u0000_\u0000g\u0000h\u0000a\u0000f\u0000f\u0000a\u0000r\u0000\r\u0000 \u0000A\u0000u\u0000t\u0000e\u0000u\u0000r\u0000 \u0000:\u0000 \u0000y\u0000e\u0000o\u0000 \u0000-\u0000 \u0000T\u0000P\u0000 \u0000G\u0000i\u0000t\u0000 \u0000&\u0000 \u0000G\u0000i\u0000t\u0000H\u0000u\u0000b\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "create-jest": "^29.7.0",
+    "diff-sequences": "^29.6.3",
+    "exit": "^0.1.2",
+    "express": "^5.1.0",
+    "function-bind": "^1.1.2",
+    "hasown": "^2.0.2",
+    "is-core-module": "^2.16.1",
+    "jest-get-type": "^29.6.3",
+    "kleur": "^3.0.3",
+    "path-parse": "^1.0.7",
+    "prompts": "^2.4.2",
+    "resolve": "^1.22.10",
+    "resolve.exports": "^2.0.3",
+    "sisteransi": "^1.0.5",
+    "supports-preserve-symlinks-flag": "^1.0.0"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,6 +36,7 @@
   },
   "homepage": "https://github.com/reverse-ops/projet_devop_yeo_naminnin_abdoul_ghaffar#readme",
   "devDependencies": {
+    "eslint": "^9.36.0",
     "jest": "^30.2.0"
   }
 }
