@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - run: npx eslint .
+      - run: node ./node_modules/.bin/eslint .
 
   test:
     runs-on: ubuntu-latest
