@@ -4,7 +4,7 @@
   "description": "Auteur : yeo - TP Git & GitHub",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest",
+    "test": "jest --runInBand",
     "lint": "eslint ."
   },
   "repository": {
