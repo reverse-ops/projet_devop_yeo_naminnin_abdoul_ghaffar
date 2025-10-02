@@ -3,6 +3,8 @@ name: Node.js CI
 on:
   push:
     branches: [ "develop" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   lint:
@@ -38,4 +40,4 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - run: echo "🚀 Build généré avec succès !"
+      - run: echo "Build généré avec succès !"
