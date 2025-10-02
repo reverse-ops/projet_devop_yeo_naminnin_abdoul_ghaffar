@@ -11,10 +11,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          branch: develop   # branche source
-          base: main        # branche cible
+          base: main
+          branch: auto/pr-develop-to-main
           title: "Synchronisation develop → main"
-          body: "Pull request générée automatiquement."
+          body: "Pull request générée automatiquement depuis develop."
