@@ -4,8 +4,7 @@
   "description": "Auteur : yeo - TP Git & GitHub",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "repository": {
     "type": "git",
